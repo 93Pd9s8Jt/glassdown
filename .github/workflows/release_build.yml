@@ -78,6 +78,7 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
+          automatic_release_tag: "latest"
           files: |
             glass_down-arm64-v8a-${{ needs.version.outputs.app-version }}.apk
             glass_down-armeabi-v7a-${{ needs.version.outputs.app-version }}.apk

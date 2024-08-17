@@ -6,9 +6,7 @@
 name: GlassDown Tag Release
             
 on:
-  push:
-    tags-ignore:
-      - "v*dev*"
+  workflow_dispatch
     
 
 jobs:
